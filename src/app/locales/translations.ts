@@ -175,21 +175,21 @@ export const translations = {
       },
       step2: {
         title: "On-Site Inspection",
-        description: "We inspect your building, evaluate the condition of the structural and electrical systems, and document everything for recertification. (1 Day)"
+        description: "We inspect your building, evaluate the condition of the structural and electrical systems, and document everything for recertification."
       },
       step3: {
         title: "Recertification Reports",
-        description: "We prepare structural, electrical, and thermographic reports, including condition assessments and recommendations, signed and sealed by a Professional Engineer (PE). (1 Day)"
+        description: "We prepare structural, electrical, and thermographic reports, including condition assessments and recommendations, signed and sealed by a Professional Engineer (PE)."
       },
       step4: {
         title: "Submission to the City",
         description: "The owner or our team submits the documentation to the appropriate. Once submitted, the review and approval timeline depends on the city."
       },
       timelines: {
-        step1: "En menos de 24 horas",
-        step2: "1 Día",
-        step3: "1 Día",
-        step4: "1 Día"
+        step1: "Less than 24 hours",
+        step2: "1 Day",
+        step3: "1 Day",
+        step4: "1 Day"
       },
       timeline: "⚡ Our estimated technical process time: approximately 3–5 business days",
       disclaimer: "• Approval timelines depend on the city's review process.\n• 5-day report delivery applies to projects under 10,000 sqft and favorable existing conditions.",
@@ -431,11 +431,11 @@ export const translations = {
       },
       step2: {
         title: "Inspección en Sitio",
-        description: "Inspeccionamos su edificio, evaluamos el estado de los sistemas estructurales y eléctricos, y documentamos todo para la recertificación. (1 Día)"
+        description: "Inspeccionamos su edificio, evaluamos el estado de los sistemas estructurales y eléctricos, y documentamos todo para la recertificación."
       },
       step3: {
         title: "Informes de Recertificación",
-        description: "Preparamos informes estructurales, eléctricos y termográficos, incluyendo evaluaciones de condición y recomendaciones, firmados y sellados por un Ingeniero Profesional (PE). (1 Día)"
+        description: "Preparamos informes estructurales, eléctricos y termográficos, incluyendo evaluaciones de condición y recomendaciones, firmados y sellados por un Ingeniero Profesional (PE)."
       },
       step4: {
         title: "Presentación a la Ciudad",
