@@ -51,7 +51,7 @@ function AppContent() {
               <img 
                 src={logoImage} 
                 alt="USDC CONSULTING Logo" 
-                className="h-8 w-8 sm:h-10 sm:w-10 transition-transform group-hover:scale-110"
+                className="h-6 w-6 sm:h-7 sm:w-7 transition-transform group-hover:scale-110"
               />
               <span className="text-xl font-bold text-gray-900 hidden sm:inline">USDC CONSULTING</span>
               <span className="text-lg font-bold text-gray-900 sm:hidden">USDC</span>
