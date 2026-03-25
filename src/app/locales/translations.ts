@@ -186,10 +186,10 @@ export const translations = {
         description: "The owner or our team submits the documentation to the appropriate. Once submitted, the review and approval timeline depends on the city."
       },
       timelines: {
-        step1: "En menos de 24 horas",
-        step2: "1 Día",
-        step3: "1 Día",
-        step4: "1 Día"
+        step1: "Less than 24 hours",
+        step2: "1 Day",
+        step3: "1 Day",
+        step4: "1 Day"
       },
       timeline: "⚡ Our estimated technical process time: approximately 3–5 business days",
       disclaimer: "• Approval timelines depend on the city's review process.\n• 5-day report delivery applies to projects under 10,000 sqft and favorable existing conditions.",
