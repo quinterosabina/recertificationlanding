@@ -46,7 +46,7 @@ const projects = [
   {
     id: 7,
     image: thresholdBuilding,
-    title: "Threshold building - Residential"
+    title: "Threshold Building - Residential"
   },
   {
     id: 8,
