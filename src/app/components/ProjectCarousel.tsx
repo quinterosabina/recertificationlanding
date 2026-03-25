@@ -1,33 +1,65 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import portfolio1 from "../../assets/portfolio1.jpg";
-import portfolio2 from "../../assets/portfolio2.jpg";
-import portfolio3 from "../../assets/portfolio3.jpg";
+import burguerking from "../../assets/portafolio/burguerking.JPG";
+import macdonalds from "../../assets/portafolio/macdonalds.jpg";
+import navarro from "../../assets/portafolio/navarro.JPG";
+import sedanos from "../../assets/portafolio/sedanos.JPG";
+import thresholding from "../../assets/portafolio/thresholding.jpg";
+import shoppingCenter from "../../assets/portafolio/shopping center Miami Gardens.JPG";
 
 const projects = [
   {
     id: 1,
-    image: portfolio1
+    image: burguerking,
+    title: "Burger King"
   },
   {
     id: 2,
-    image: portfolio2
+    image: macdonalds,
+    title: "McDonald's"
   },
   {
     id: 3,
-    image: portfolio3
+    image: navarro,
+    title: "Navarro"
+  },
+  {
+    id: 4,
+    image: sedanos,
+    title: "Sedanos"
+  },
+  {
+    id: 5,
+    image: thresholding,
+    title: "Thresholding"
+  },
+  {
+    id: 6,
+    image: shoppingCenter,
+    title: "Shopping Center Miami Gardens"
   }
 ];
 
-export function ProjectCarousel() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+interface ProjectCarouselProps {
+  currentIndex?: number;
+  onIndexChange?: (index: number) => void;
+}
+
+export function ProjectCarousel({ currentIndex: externalIndex, onIndexChange }: ProjectCarouselProps = {}) {
+  const [internalIndex, setInternalIndex] = useState(0);
+  
+  // Use external index if provided, otherwise use internal state
+  const currentIndex = externalIndex !== undefined ? externalIndex : internalIndex;
+  const setCurrentIndex = onIndexChange || setInternalIndex;
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+    const newIndex = (currentIndex + 1) % projects.length;
+    setCurrentIndex(newIndex);
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + projects.length) % projects.length);
+    const newIndex = (currentIndex - 1 + projects.length) % projects.length;
+    setCurrentIndex(newIndex);
   };
 
   const goToSlide = (index: number) => {
@@ -43,6 +75,11 @@ export function ProjectCarousel() {
           alt={`Project ${currentIndex + 1}`}
           className="w-full h-full object-cover"
         />
+        
+        {/* Title Overlay */}
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+          <h3 className="text-white text-2xl font-bold">{projects[currentIndex].title}</h3>
+        </div>
         
         {/* Navigation Buttons */}
         <button

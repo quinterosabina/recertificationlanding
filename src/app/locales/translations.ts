@@ -153,6 +153,10 @@ export const translations = {
       badgeHeadline: "",
       badgeDescription: "Our licensed engineers and certified inspectors help building managers comply with city regulations, offering expert support throughout the entire process."
     },
+    portfolio: {
+      badge: "LATEST PROJECT",
+      title: "Our Recent Success Stories"
+    },
     process: {
       badge: "SIMPLE PROCESS",
       title: "Fast-Track Building Recertification",
@@ -259,7 +263,7 @@ export const translations = {
     },
     hero: {
       badge: "Requisito obligatorio bajo la ley de Florida",
-      title: "INFORMES DE RECERTIFICACIÓN DE EDIFICIOS ACelerados",
+      title: "INFORMES DE RECERTIFICACIÓN DE EDIFICIOS ACELERADOS",
       subtitle: "Proteja Su Propiedad de Sanciones Legales Post-Surfside",
       description: "Entrega más rápida. Manténgase en el cronograma y evite multas costosas, gravámenes, violaciones y audiencias municipales",
       ctaPrimary: "Agende Su Inspección Hoy",
@@ -404,6 +408,10 @@ export const translations = {
       guarantee: "100% Confidencial | Sin Obligación | Respuesta Rápida",
       badgeHeadline: "",
       badgeDescription: "Nuestros ingenieros licenciados e inspectores certificados ayudan a los administradores de edificios a cumplir con las regulaciones de la ciudad, ofreciendo apoyo experto durante todo el proceso."
+    },
+    portfolio: {
+      badge: "ÚLTIMOS PROYECTOS",
+      title: "Nuestras Historias de Éxito Recientes"
     },
     process: {
       badge: "PROCESO SIMPLE",
