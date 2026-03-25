@@ -179,4 +179,3 @@ This project is proprietary software for USDC CONSULTING.
 
 ---
 
-*Built with ❤️ for USDC CONSULTING*

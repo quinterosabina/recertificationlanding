@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { HeroSection } from './components/HeroSection';
 import { UrgencySection } from './components/UrgencySection';
 import { ServicesSection } from './components/ServicesSection';
-import { AuthoritySection } from './components/AuthoritySection';
+import { PortfolioSection } from './components/PortfolioSection';
 import { ProcessSection } from './components/ProcessSection';
 import { CTASection } from './components/CTASection';
 import { Footer } from './components/Footer';
@@ -102,7 +102,7 @@ function AppContent() {
         <ProcessSection />
         <UrgencySection />
         <ServicesSection />
-        <AuthoritySection />
+        <PortfolioSection />
         <CTASection />
       </main>
 
