@@ -1,0 +1,52 @@
+    authority: {
+      badge: "LICENSED PROFESSIONALS",
+      title: "Expert Inspections for Florida Building Recertification Compliance.",
+      description: "Our team of licensed engineers offers complete structural and electrical recertification inspections, with clear and detailed reports. We accompany owners, associations and managers at every stage of the process to ensure your building meets all city requirements quickly and efficiently.",
+      checkmarks: [
+        "Licensed Engineers (P.E.)",
+        "Structural and Electrical Inspections",
+        "Clear Technical Reports",
+        "Fast Delivery"
+      ],
+      credentials: "Licensed P.E. • ASHI Certified • 500+ Inspections Completed",
+      whyChoose: "Why Choose USDC CONSULTING?",
+      imageTitle: "Florida-Licensed P.E. Engineers",
+      imageSubtitle: "Technical experts who guarantee results",
+      stats: {
+        licenses: "Florida Licenses",
+        buildings: "Buildings Inspected",
+        experience: "Years of Experience",
+        approval: "Approval Rate"
+      },
+      whyTrust: "Why Trust Our Engineers?",
+      reasons: {
+        item1: {
+          title: "Licensed Professional Engineers (P.E.)",
+          description: "All our reports are sealed and signed by Professional Engineers (P.E.) with active licenses from the State of Florida."
+        },
+        item2: {
+          title: "Post-Surfside Expertise",
+          description: "Deep knowledge of the new SB 4-D and SB 154 laws, and the specific requirements of each municipality in Florida."
+        },
+        item3: {
+          title: "Comprehensive Local Service",
+          description: "We know the particularities of South Florida. From initial inspection to final submission to the city."
+        },
+        item4: {
+          title: "Advanced Technology",
+          description: "We use infrared thermography equipment, drones for hard-to-reach inspections and state-of-the-art structural analysis software."
+        }
+      },
+      item1: {
+        title: "Legal Compliance",
+        description: "We ensure your inspection meets all state and local requirements."
+      },
+      item2: {
+        title: "Fast Delivery",
+        description: "Complete reports delivered within legal deadlines."
+      },
+      item3: {
+        title: "Local Expertise",
+        description: "Deep knowledge of Miami-Dade, Broward and Palm Beach codes."
+      }
+    },
