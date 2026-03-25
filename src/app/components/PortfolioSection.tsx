@@ -9,6 +9,8 @@ import navarro from "../../assets/portafolio/navarro.JPG";
 import sedanos from "../../assets/portafolio/sedanos.JPG";
 import thresholding from "../../assets/portafolio/thresholding.jpg";
 import shoppingCenter from "../../assets/portafolio/shopping center Miami Gardens.JPG";
+import thresholdBuilding from "../../assets/portafolio/Threshold building -  ResidentiaThreshold building -  Residential.jpeg";
+import pizzahut from "../../assets/portafolio/pizzahut.JPG";
 
 const projects = [
   {
@@ -34,12 +36,22 @@ const projects = [
   {
     id: 5,
     image: thresholding,
-    title: "Thresholding"
+    title: "Threshold Building - Commercial"
   },
   {
     id: 6,
     image: shoppingCenter,
     title: "Shopping Center Miami Gardens"
+  },
+  {
+    id: 7,
+    image: thresholdBuilding,
+    title: "Threshold building - Residential"
+  },
+  {
+    id: 8,
+    image: pizzahut,
+    title: "Pizza Hut"
   }
 ];
 

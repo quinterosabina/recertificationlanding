@@ -155,7 +155,7 @@ export const translations = {
     },
     portfolio: {
       badge: "LATEST PROJECT",
-      title: "Our Recent Success Stories"
+      title: "Recently Approved Building Recertifications"
     },
     process: {
       badge: "SIMPLE PROCESS",
@@ -411,7 +411,7 @@ export const translations = {
     },
     portfolio: {
       badge: "ÚLTIMOS PROYECTOS",
-      title: "Nuestras Historias de Éxito Recientes"
+      title: "Recertificaciones de edificios aprobadas recientemente"
     },
     process: {
       badge: "PROCESO SIMPLE",
