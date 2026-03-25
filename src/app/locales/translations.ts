@@ -175,11 +175,11 @@ export const translations = {
       },
       step2: {
         title: "On-Site Inspection",
-        description: "We inspect your building, evaluate the condition of the structural and electrical systems, and document everything for recertification. (1 Day)"
+        description: "We inspect your building, evaluate the condition of the structural and electrical systems, and document everything for recertification."
       },
       step3: {
         title: "Recertification Reports",
-        description: "We prepare structural, electrical, and thermographic reports, including condition assessments and recommendations, signed and sealed by a Professional Engineer (PE). (1 Day)"
+        description: "We prepare structural, electrical, and thermographic reports, including condition assessments and recommendations, signed and sealed by a Professional Engineer (PE)."
       },
       step4: {
         title: "Submission to the City",
@@ -431,11 +431,11 @@ export const translations = {
       },
       step2: {
         title: "Inspección en Sitio",
-        description: "Inspeccionamos su edificio, evaluamos el estado de los sistemas estructurales y eléctricos, y documentamos todo para la recertificación. (1 Día)"
+        description: "Inspeccionamos su edificio, evaluamos el estado de los sistemas estructurales y eléctricos, y documentamos todo para la recertificación."
       },
       step3: {
         title: "Informes de Recertificación",
-        description: "Preparamos informes estructurales, eléctricos y termográficos, incluyendo evaluaciones de condición y recomendaciones, firmados y sellados por un Ingeniero Profesional (PE). (1 Día)"
+        description: "Preparamos informes estructurales, eléctricos y termográficos, incluyendo evaluaciones de condición y recomendaciones, firmados y sellados por un Ingeniero Profesional (PE)."
       },
       step4: {
         title: "Presentación a la Ciudad",
