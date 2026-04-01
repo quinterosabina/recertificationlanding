@@ -21,13 +21,37 @@ export function CTASection() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    setIsSubmitted(true);
-    setIsSubmitting(false);
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: "", email: "", phone: "", buildingAddress: "", message: "" });
-    }, 5000);
+    
+    try {
+      const response = await fetch('https://hook.us2.make.com/pxqlunbva6m96ntmwn5n83s5b2qe7ubp', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          fullName: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          address: formData.buildingAddress,
+          details: formData.message
+        }),
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        setTimeout(() => {
+          setIsSubmitted(false);
+          setFormData({ name: "", email: "", phone: "", buildingAddress: "", message: "" });
+        }, 5000);
+      } else {
+        throw new Error('Failed to submit form');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      // You could add error handling here, like showing an error message
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
