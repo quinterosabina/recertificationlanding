@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.usdcrecertification.com/sitemap.xml
+
+# Block unnecessary files
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /*.json
+Disallow: /*.ts
+Disallow: /*.tsx
+
+# Allow important assets
+Allow: /src/assets/
+Allow: /logo.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.JPG
+Allow: /googlef293a18e78e4bbbc.html
+
+# Crawl delay (be respectful to server)
+Crawl-delay: 1
