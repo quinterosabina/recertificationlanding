@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <url>
+    <loc>https://www.usdcrecertification.com/</loc>
+    <lastmod>2025-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Images in the page -->
+    <image:image>
+      <image:loc>https://www.usdcrecertification.com/logo.png</image:loc>
+      <image:title>USDC Consulting Logo - Building Recertification Miami-Dade & Broward</image:title>
+      <image:caption>Building recertification services for Miami-Dade County Code Section 8-11(f) & Florida Building Code Section 110.15 (Broward County)</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.usdcrecertification.com/src/assets/portafolio/burguerking.JPG</image:loc>
+      <image:title>Burger King Recertification Project - Miami-Dade County</image:title>
+      <image:caption>Building recertification completed for Burger King in Miami-Dade County - Florida Building Code compliance</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.usdcrecertification.com/src/assets/portafolio/macdonalds.jpg</image:loc>
+      <image:title>McDonald's Recertification Project - Broward County</image:title>
+      <image:caption>Building recertification completed for McDonald's in Broward County - Section 110.15 compliance</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.usdcrecertification.com/src/assets/portafolio/navarro.JPG</image:loc>
+      <image:title>Navarro Recertification Project - Miami-Dade</image:title>
+      <image:caption>Building recertification completed for Navarro Pharmacy - Miami-Dade County Code 8-11(f)</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.usdcrecertification.com/src/assets/portafolio/sedanos.JPG</image:loc>
+      <image:title>Sedanos Recertification Project - Broward County</image:title>
+      <image:caption>Building recertification completed for Sedanos Supermarket - Florida Building Code Section 110.15</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.usdcrecertification.com/src/assets/portafolio/thresholding.jpg</image:loc>
+      <image:title>Threshold Building - Commercial Recertification Miami-Dade</image:title>
+      <image:caption>Commercial building recertification completed in Miami-Dade County - Code Section 8-11(f) compliance</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.usdcrecertification.com/src/assets/portafolio/shopping center Miami Gardens.JPG</image:loc>
+      <image:title>Shopping Center Miami Gardens Recertification - Broward</image:title>
+      <image:caption>Shopping center recertification completed in Miami Gardens, Broward County - Section 110.15 compliance</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.usdcrecertification.com/src/assets/portafolio/Threshold building -  ResidentiaThreshold building -  Residential.jpeg</image:loc>
+      <image:title>Threshold Building - Residential Recertification Miami-Dade</image:title>
+      <image:caption>Residential building recertification completed in Miami-Dade County - Florida Building Code compliance</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.usdcrecertification.com/src/assets/portafolio/pizzahut.JPG</image:loc>
+      <image:title>Pizza Hut Recertification Project - Broward County</image:title>
+      <image:caption>Building recertification completed for Pizza Hut in Broward County - Section 110.15 compliance</image:caption>
+    </image:image>
+  </url>
+  
+</urlset>
