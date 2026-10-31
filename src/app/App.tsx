@@ -75,7 +75,7 @@ function AppContent() {
                 className="hidden sm:flex items-center gap-2"
                 asChild
               >
-                <a href="tel:+13051234567">
+                <a href="tel:+13055707589">
                   <Phone className="h-4 w-4" />
                   <span className="hidden md:inline">{t.nav.phone}</span>
                 </a>
@@ -122,7 +122,7 @@ function AppContent() {
 
       {/* Floating Phone Button (Mobile) */}
       <a
-        href="tel:+13051234567"
+        href="tel:+13055707589"
         className="sm:hidden fixed bottom-6 left-6 z-40 w-14 h-14 bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg flex items-center justify-center transition-all hover:scale-110"
         aria-label="Call now"
       >

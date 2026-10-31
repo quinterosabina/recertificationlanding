@@ -1,7 +1,7 @@
 import { Phone } from "lucide-react";
 import { Button } from "./ui/button";
 import { useLanguage } from "../contexts/LanguageContext";
-import heroBg from "@/assets/building.png";
+import heroBg from "@/assets/building.jpg";
 import { motion } from "motion/react";
 
 const fadeUp = (delay = 0) => ({
@@ -22,7 +22,7 @@ export function HeroSection() {
       <div className="hidden sm:block absolute inset-0">
         <img
           src={heroBg}
-          alt="USDC Consulting building"
+          alt="South Florida high-rise building under building recertification in Miami-Dade and Broward"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-slate-900/60" />
